@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  opendronemap-creator:
+    image: opendronemap/odm:latest
+    command: --project-path /datasets project --auto-boundary --dsm --mesh-octree-depth r --rerun-all
+    volumes:
+      - ./dataset/:/datasets/project
