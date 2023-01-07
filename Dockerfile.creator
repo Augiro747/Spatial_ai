@@ -1,7 +1,0 @@
-FROM opendronemap/odm:latest
-WORKDIR /
-echo "Input"
-read B
-$Coarsening=$B
-RUN apt-get update
-ENTRYPOINT ["python3", "/code/run.py"]

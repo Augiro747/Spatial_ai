@@ -1,0 +1,5 @@
+open3d==0.14.1
+click==4.0
+pyransac3d==0.6.0
+Shapely==1.8.5.post1
+scipy==1.9.3
